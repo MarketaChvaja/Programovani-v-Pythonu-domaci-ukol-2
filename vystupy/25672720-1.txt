@@ -1,0 +1,149 @@
+{
+  "ico": "25672720",
+  "obchodniJmeno": "MONETA Money Bank, a.s.",
+  "sidlo": {
+    "kodStatu": "CZ",
+    "nazevStatu": "Česká republika",
+    "kodKraje": 19,
+    "nazevKraje": "Hlavní město Praha",
+    "kodObce": 554782,
+    "nazevObce": "Praha",
+    "kodSpravnihoObvodu": 43,
+    "nazevSpravnihoObvodu": "Praha 4",
+    "kodMestskehoObvodu": 43,
+    "nazevMestskehoObvodu": "Praha 4",
+    "kodMestskeCastiObvodu": 500119,
+    "kodUlice": 478652,
+    "nazevMestskeCastiObvodu": "Praha 4",
+    "nazevUlice": "Vyskočilova",
+    "cisloDomovni": 1442,
+    "kodCastiObce": 490130,
+    "cisloOrientacni": 1,
+    "cisloOrientacniPismeno": "b",
+    "nazevCastiObce": "Michle",
+    "kodAdresnihoMista": 25559869,
+    "psc": 14000,
+    "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+    "standardizaceAdresy": true,
+    "typCisloDomovni": 1
+  },
+  "pravniForma": "121",
+  "financniUrad": "013",
+  "datumVzniku": "1998-06-09",
+  "datumAktualizace": "2025-03-09",
+  "dic": "CZ25672720",
+  "icoId": "25672720",
+  "adresaDorucovaci": {
+    "radekAdresy1": "Vyskočilova 1442/1b\nMichle\n14000 Praha 4"
+  },
+  "seznamRegistraci": {
+    "stavZdrojeVr": "AKTIVNI",
+    "stavZdrojeRes": "AKTIVNI",
+    "stavZdrojeRzp": "NEEXISTUJICI",
+    "stavZdrojeNrpzs": "NEEXISTUJICI",
+    "stavZdrojeRpsh": "NEEXISTUJICI",
+    "stavZdrojeRcns": "NEEXISTUJICI",
+    "stavZdrojeSzr": "NEEXISTUJICI",
+    "stavZdrojeDph": "AKTIVNI",
+    "stavZdrojeSd": "NEEXISTUJICI",
+    "stavZdrojeIr": "NEEXISTUJICI",
+    "stavZdrojeCeu": "NEEXISTUJICI",
+    "stavZdrojeRs": "NEEXISTUJICI",
+    "stavZdrojeRed": "NEEXISTUJICI",
+    "stavZdrojeMonitor": "NEEXISTUJICI"
+  },
+  "primarniZdroj": "vr",
+  "dalsiUdaje": [
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "MONETA Money Bank, a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 43,
+            "nazevSpravnihoObvodu": "Praha 4",
+            "kodMestskehoObvodu": 43,
+            "nazevMestskehoObvodu": "Praha 4",
+            "kodMestskeCastiObvodu": 500119,
+            "kodUlice": 478652,
+            "nazevMestskeCastiObvodu": "Praha 4",
+            "nazevUlice": "Vyskočilova",
+            "cisloDomovni": 1442,
+            "kodCastiObce": 490130,
+            "cisloOrientacni": 1,
+            "cisloOrientacniPismeno": "b",
+            "nazevCastiObce": "Michle",
+            "kodAdresnihoMista": 25559869,
+            "psc": 14000,
+            "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "datovyZdroj": "res"
+    },
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "MONETA Money Bank, a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 43,
+            "nazevSpravnihoObvodu": "Praha 4",
+            "kodMestskehoObvodu": 43,
+            "nazevMestskehoObvodu": "Praha 4",
+            "kodMestskeCastiObvodu": 500119,
+            "kodUlice": 478652,
+            "nazevMestskeCastiObvodu": "Praha 4",
+            "nazevUlice": "Vyskočilova",
+            "cisloDomovni": 1442,
+            "kodCastiObce": 490130,
+            "cisloOrientacni": 1,
+            "cisloOrientacniPismeno": "b",
+            "nazevCastiObce": "Michle",
+            "kodAdresnihoMista": 25559869,
+            "psc": 14000,
+            "textovaAdresa": "Vyskočilova 1442/1b, Michle, 14000 Praha 4",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "spisovaZnacka": "B 5403/MSPH",
+      "datovyZdroj": "vr"
+    }
+  ],
+  "czNace": [
+    "64190",
+    "649",
+    "64910",
+    "661"
+  ],
+  "subRegistrSzr": "szr",
+  "dicSkDph": "CZ699003117"
+}
