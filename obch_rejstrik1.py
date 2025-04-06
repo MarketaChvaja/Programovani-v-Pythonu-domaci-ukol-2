@@ -9,7 +9,7 @@ import json
 import requests
 import os 
 
-print("OBCHODNÍ REJSTŘÍK")
+print("OBCHODNÍ REJSTŘÍK - podle IČO")
 print("Aplikace pro vyhledávání v obchodním rejstříku")
 ico = input("Zadejte IČO subjektu, který chcete vyhledat: ")
 print(f"Vyhledávám {ico}...")
@@ -24,22 +24,32 @@ json_text = json.dumps(data, indent=2, ensure_ascii=False)
 
 
 # stažená data uloží do souboru a do složky, soubor pojmenuje podle vyhledaneho ICO, pokud uz stejny soubor existuje, prida k nazvu souboru cislo
-folder = "Stažená data"
-filename = os.path.join(folder, f"{ico}.txt")   # nebo: filename =  f"vystupy\{ico}.txt"
+# S adresou pracuj jako s obyčejným řetězcem, tj. můžeš využívat formátované řetězce, metodu .replace(), operátor + atd. Text, který API vrátí, převeď na JSON a zjisti z něj obchodní jméno subjektu a adresu jeho sídla (můžeš využít podle textovaAdresa). Získané informace vypiš na obrazovku.
+
+nazev = data["obchodniJmeno"]
+adresa = data["sidlo"]["textovaAdresa"]
+
+folder = "vystupy"
+filename = os.path.join(folder, f"{ico}-{nazev}.txt")   # nebo: filename =  f"vystupy\{ico}.txt"
 counter = 1
 while os.path.exists(filename):
-  filename = os.path.join(folder, f"{ico}-{counter}.txt") # nebo: filename = f"vystupy\{ico}-{counter}.txt"
+  filename = os.path.join(folder, f"{ico}-{nazev}-{counter}.txt") # nebo: filename = f"vystupy\{ico}-{counter}.txt"
   counter += 1
 
 with open(filename, "w", encoding="utf-8") as file:
   file.write(json_text)
 
 
-nazev = data["obchodniJmeno"]
-print(f"Zadané IČO patří společnosti: {nazev}. Data byla uložena do souboru: {filename} ve složce: vystupy.")
+
+
+print(" ")
+print("Výsledek vyhledávání:")
+print(f"Zadané IČO patří společnosti: {nazev} s adresou: {adresa}. Data byla uložena do souboru: {filename} ve složce: vystupy.")
+
+
+# Část 2
+# Často se stane, že neznáme IČO subjektu, ale známe například jeho název nebo alespoň část názvu. Napiš program, který se zeptá uživatele(ky) na název subjektu, který chce vyhledat. Následně vypiš všechny nalezené subjekty, které ti API vrátí.
 
 
 
 
-
-# S adresou pracuj jako s obyčejným řetězcem, tj. můžeš využívat formátované řetězce, metodu .replace(), operátor + atd. Text, který API vrátí, převeď na JSON a zjisti z něj obchodní jméno subjektu a adresu jeho sídla (můžeš využít podle textovaAdresa). Získané informace vypiš na obrazovku.

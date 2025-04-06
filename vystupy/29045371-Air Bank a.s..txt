@@ -1,0 +1,142 @@
+{
+  "ico": "29045371",
+  "obchodniJmeno": "Air Bank a.s.",
+  "sidlo": {
+    "kodStatu": "CZ",
+    "nazevStatu": "Česká republika",
+    "kodKraje": 19,
+    "nazevKraje": "Hlavní město Praha",
+    "kodObce": 554782,
+    "nazevObce": "Praha",
+    "kodSpravnihoObvodu": 60,
+    "nazevSpravnihoObvodu": "Praha 6",
+    "kodMestskehoObvodu": 60,
+    "nazevMestskehoObvodu": "Praha 6",
+    "kodMestskeCastiObvodu": 500178,
+    "kodUlice": 454222,
+    "nazevMestskeCastiObvodu": "Praha 6",
+    "nazevUlice": "Evropská",
+    "cisloDomovni": 2690,
+    "kodCastiObce": 400459,
+    "cisloOrientacni": 17,
+    "nazevCastiObce": "Dejvice",
+    "kodAdresnihoMista": 26771926,
+    "psc": 16000,
+    "textovaAdresa": "Evropská 2690/17, Dejvice, 16000 Praha 6",
+    "standardizaceAdresy": true,
+    "typCisloDomovni": 1
+  },
+  "pravniForma": "121",
+  "financniUrad": "013",
+  "datumVzniku": "2010-02-26",
+  "datumAktualizace": "2024-09-02",
+  "dic": "CZ29045371",
+  "icoId": "29045371",
+  "adresaDorucovaci": {
+    "radekAdresy1": "Evropská 2690/17\nDejvice\n16000 Praha 6"
+  },
+  "seznamRegistraci": {
+    "stavZdrojeVr": "AKTIVNI",
+    "stavZdrojeRes": "AKTIVNI",
+    "stavZdrojeRzp": "NEEXISTUJICI",
+    "stavZdrojeNrpzs": "NEEXISTUJICI",
+    "stavZdrojeRpsh": "NEEXISTUJICI",
+    "stavZdrojeRcns": "NEEXISTUJICI",
+    "stavZdrojeSzr": "NEEXISTUJICI",
+    "stavZdrojeDph": "AKTIVNI",
+    "stavZdrojeSd": "NEEXISTUJICI",
+    "stavZdrojeIr": "NEEXISTUJICI",
+    "stavZdrojeCeu": "NEEXISTUJICI",
+    "stavZdrojeRs": "NEEXISTUJICI",
+    "stavZdrojeRed": "NEEXISTUJICI",
+    "stavZdrojeMonitor": "NEEXISTUJICI"
+  },
+  "primarniZdroj": "vr",
+  "dalsiUdaje": [
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "Air Bank a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 60,
+            "nazevSpravnihoObvodu": "Praha 6",
+            "kodMestskehoObvodu": 60,
+            "nazevMestskehoObvodu": "Praha 6",
+            "kodMestskeCastiObvodu": 500178,
+            "kodUlice": 454222,
+            "nazevMestskeCastiObvodu": "Praha 6",
+            "nazevUlice": "Evropská",
+            "cisloDomovni": 2690,
+            "kodCastiObce": 400459,
+            "cisloOrientacni": 17,
+            "nazevCastiObce": "Dejvice",
+            "kodAdresnihoMista": 26771926,
+            "psc": 16000,
+            "textovaAdresa": "Evropská 2690/17, Dejvice, 16000 Praha 6",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "datovyZdroj": "res"
+    },
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "Air Bank a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 60,
+            "nazevSpravnihoObvodu": "Praha 6",
+            "kodMestskehoObvodu": 60,
+            "nazevMestskehoObvodu": "Praha 6",
+            "kodMestskeCastiObvodu": 500178,
+            "kodUlice": 454222,
+            "nazevMestskeCastiObvodu": "Praha 6",
+            "nazevUlice": "Evropská",
+            "cisloDomovni": 2690,
+            "kodCastiObce": 400459,
+            "cisloOrientacni": 17,
+            "nazevCastiObce": "Dejvice",
+            "kodAdresnihoMista": 26771926,
+            "psc": 16000,
+            "textovaAdresa": "Evropská 2690/17, Dejvice, 16000 Praha 6",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "spisovaZnacka": "B 16013/MSPH",
+      "datovyZdroj": "vr"
+    }
+  ],
+  "czNace": [
+    "64190",
+    "6499"
+  ],
+  "subRegistrSzr": "szr",
+  "dicSkDph": "CZ699004328"
+}

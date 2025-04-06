@@ -1,0 +1,143 @@
+{
+  "ico": "13584324",
+  "obchodniJmeno": "ČSOB Hypoteční banka, a.s.",
+  "sidlo": {
+    "kodStatu": "CZ",
+    "nazevStatu": "Česká republika",
+    "kodKraje": 19,
+    "nazevKraje": "Hlavní město Praha",
+    "kodObce": 554782,
+    "nazevObce": "Praha",
+    "kodSpravnihoObvodu": 51,
+    "nazevSpravnihoObvodu": "Praha 5",
+    "kodMestskehoObvodu": 51,
+    "nazevMestskehoObvodu": "Praha 5",
+    "kodMestskeCastiObvodu": 500143,
+    "kodUlice": 467359,
+    "nazevMestskeCastiObvodu": "Praha 5",
+    "nazevUlice": "Radlická",
+    "cisloDomovni": 333,
+    "kodCastiObce": 400297,
+    "cisloOrientacni": 150,
+    "nazevCastiObce": "Radlice",
+    "kodAdresnihoMista": 26664704,
+    "psc": 15000,
+    "textovaAdresa": "Radlická 333/150, Radlice, 15000 Praha 5",
+    "standardizaceAdresy": true,
+    "typCisloDomovni": 1
+  },
+  "pravniForma": "121",
+  "financniUrad": "013",
+  "datumVzniku": "1991-01-10",
+  "datumAktualizace": "2025-03-13",
+  "dic": "CZ13584324",
+  "icoId": "13584324",
+  "adresaDorucovaci": {
+    "radekAdresy1": "Radlická 333/150\nRadlice\n15000 Praha 5"
+  },
+  "seznamRegistraci": {
+    "stavZdrojeVr": "AKTIVNI",
+    "stavZdrojeRes": "AKTIVNI",
+    "stavZdrojeRzp": "NEEXISTUJICI",
+    "stavZdrojeNrpzs": "NEEXISTUJICI",
+    "stavZdrojeRpsh": "NEEXISTUJICI",
+    "stavZdrojeRcns": "NEEXISTUJICI",
+    "stavZdrojeSzr": "NEEXISTUJICI",
+    "stavZdrojeDph": "AKTIVNI",
+    "stavZdrojeSd": "NEEXISTUJICI",
+    "stavZdrojeIr": "NEEXISTUJICI",
+    "stavZdrojeCeu": "NEEXISTUJICI",
+    "stavZdrojeRs": "NEEXISTUJICI",
+    "stavZdrojeRed": "NEEXISTUJICI",
+    "stavZdrojeMonitor": "NEEXISTUJICI"
+  },
+  "primarniZdroj": "vr",
+  "dalsiUdaje": [
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "ČSOB Hypoteční banka, a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 51,
+            "nazevSpravnihoObvodu": "Praha 5",
+            "kodMestskehoObvodu": 51,
+            "nazevMestskehoObvodu": "Praha 5",
+            "kodMestskeCastiObvodu": 500143,
+            "kodUlice": 467359,
+            "nazevMestskeCastiObvodu": "Praha 5",
+            "nazevUlice": "Radlická",
+            "cisloDomovni": 333,
+            "kodCastiObce": 400297,
+            "cisloOrientacni": 150,
+            "nazevCastiObce": "Radlice",
+            "kodAdresnihoMista": 26664704,
+            "psc": 15000,
+            "textovaAdresa": "Radlická 333/150, Radlice, 15000 Praha 5",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "datovyZdroj": "res"
+    },
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "ČSOB Hypoteční banka, a.s.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 51,
+            "nazevSpravnihoObvodu": "Praha 5",
+            "kodMestskehoObvodu": 51,
+            "nazevMestskehoObvodu": "Praha 5",
+            "kodMestskeCastiObvodu": 500143,
+            "kodUlice": 467359,
+            "nazevMestskeCastiObvodu": "Praha 5",
+            "nazevUlice": "Radlická",
+            "cisloDomovni": 333,
+            "kodCastiObce": 400297,
+            "cisloOrientacni": 150,
+            "nazevCastiObce": "Radlice",
+            "kodAdresnihoMista": 26664704,
+            "psc": 15000,
+            "textovaAdresa": "Radlická 333/150, Radlice, 15000 Praha 5",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "121",
+      "spisovaZnacka": "B 3511/MSPH",
+      "datovyZdroj": "vr"
+    }
+  ],
+  "czNace": [
+    "64190"
+  ],
+  "subRegistrSzr": "szr",
+  "dicSkDph": "CZ699000761"
+}

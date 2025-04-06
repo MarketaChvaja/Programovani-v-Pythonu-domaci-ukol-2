@@ -8,6 +8,8 @@ Například pro IČO 22834958 by tvůj program měl vypsat následující text.
 
 Czechitas z.ú.
 Krakovská 583/9, Nové Město, 110 00 Praha 1
+
+
 Část 2
 Často se stane, že neznáme IČO subjektu, ale známe například jeho název nebo alespoň část názvu. Napiš program, který se zeptá uživatele(ky) na název subjektu, který chce vyhledat. Následně vypiš všechny nalezené subjekty, které ti API vrátí.
 
