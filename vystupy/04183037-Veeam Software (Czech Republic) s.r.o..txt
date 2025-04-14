@@ -1,0 +1,188 @@
+{
+  "ico": "04183037",
+  "obchodniJmeno": "Veeam Software (Czech Republic) s.r.o.",
+  "sidlo": {
+    "kodStatu": "CZ",
+    "nazevStatu": "Česká republika",
+    "kodKraje": 19,
+    "nazevKraje": "Hlavní město Praha",
+    "kodObce": 554782,
+    "nazevObce": "Praha",
+    "kodSpravnihoObvodu": 86,
+    "nazevSpravnihoObvodu": "Praha 8",
+    "kodMestskehoObvodu": 86,
+    "nazevMestskehoObvodu": "Praha 8",
+    "kodMestskeCastiObvodu": 500208,
+    "kodUlice": 469718,
+    "nazevMestskeCastiObvodu": "Praha 8",
+    "nazevUlice": "Sokolovská",
+    "cisloDomovni": 695,
+    "kodCastiObce": 400637,
+    "cisloOrientacni": 115,
+    "cisloOrientacniPismeno": "b",
+    "nazevCastiObce": "Karlín",
+    "kodAdresnihoMista": 79192530,
+    "psc": 18600,
+    "textovaAdresa": "Sokolovská 695/115b, Karlín, 18600 Praha 8",
+    "standardizaceAdresy": true,
+    "typCisloDomovni": 1
+  },
+  "pravniForma": "112",
+  "financniUrad": "008",
+  "datumVzniku": "2015-06-22",
+  "datumAktualizace": "2023-12-02",
+  "dic": "CZ04183037",
+  "icoId": "04183037",
+  "adresaDorucovaci": {
+    "radekAdresy1": "Sokolovská 695/115b",
+    "radekAdresy2": "Karlín",
+    "radekAdresy3": "18600 Praha 8"
+  },
+  "seznamRegistraci": {
+    "stavZdrojeVr": "AKTIVNI",
+    "stavZdrojeRes": "AKTIVNI",
+    "stavZdrojeRzp": "AKTIVNI",
+    "stavZdrojeNrpzs": "NEEXISTUJICI",
+    "stavZdrojeRpsh": "NEEXISTUJICI",
+    "stavZdrojeRcns": "NEEXISTUJICI",
+    "stavZdrojeSzr": "NEEXISTUJICI",
+    "stavZdrojeDph": "AKTIVNI",
+    "stavZdrojeSd": "NEEXISTUJICI",
+    "stavZdrojeIr": "NEEXISTUJICI",
+    "stavZdrojeCeu": "NEEXISTUJICI",
+    "stavZdrojeRs": "NEEXISTUJICI",
+    "stavZdrojeRed": "NEEXISTUJICI",
+    "stavZdrojeMonitor": "NEEXISTUJICI"
+  },
+  "primarniZdroj": "vr",
+  "dalsiUdaje": [
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "Veeam Software (Czech Republic) s.r.o.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 86,
+            "nazevSpravnihoObvodu": "Praha 8",
+            "kodMestskehoObvodu": 86,
+            "nazevMestskehoObvodu": "Praha 8",
+            "kodMestskeCastiObvodu": 500208,
+            "kodUlice": 469718,
+            "nazevMestskeCastiObvodu": "Praha 8",
+            "nazevUlice": "Sokolovská",
+            "cisloDomovni": 695,
+            "kodCastiObce": 400637,
+            "cisloOrientacni": 115,
+            "cisloOrientacniPismeno": "b",
+            "nazevCastiObce": "Karlín",
+            "kodAdresnihoMista": 79192530,
+            "psc": 18600,
+            "textovaAdresa": "Sokolovská 695/115b, Karlín, 18600 Praha 8",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "112",
+      "datovyZdroj": "res"
+    },
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "Veeam Software (Czech Republic) s.r.o.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 86,
+            "nazevSpravnihoObvodu": "Praha 8",
+            "kodMestskehoObvodu": 86,
+            "nazevMestskehoObvodu": "Praha 8",
+            "kodMestskeCastiObvodu": 500208,
+            "kodUlice": 469718,
+            "nazevMestskeCastiObvodu": "Praha 8",
+            "nazevUlice": "Sokolovská",
+            "cisloDomovni": 695,
+            "kodCastiObce": 400637,
+            "cisloOrientacni": 115,
+            "cisloOrientacniPismeno": "b",
+            "nazevCastiObce": "Karlín",
+            "kodAdresnihoMista": 79192530,
+            "psc": 18600,
+            "textovaAdresa": "Sokolovská 695/115b, Karlín, 18600 Praha 8",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "112",
+      "datovyZdroj": "rzp"
+    },
+    {
+      "obchodniJmeno": [
+        {
+          "obchodniJmeno": "Veeam Software (Czech Republic) s.r.o.",
+          "primarniZaznam": true
+        }
+      ],
+      "sidlo": [
+        {
+          "sidlo": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 86,
+            "nazevSpravnihoObvodu": "Praha 8",
+            "kodMestskehoObvodu": 86,
+            "nazevMestskehoObvodu": "Praha 8",
+            "kodMestskeCastiObvodu": 500208,
+            "kodUlice": 469718,
+            "nazevMestskeCastiObvodu": "Praha 8",
+            "nazevUlice": "Sokolovská",
+            "cisloDomovni": 695,
+            "kodCastiObce": 400637,
+            "cisloOrientacni": 115,
+            "cisloOrientacniPismeno": "b",
+            "nazevCastiObce": "Karlín",
+            "kodAdresnihoMista": 79192530,
+            "psc": 18600,
+            "textovaAdresa": "Sokolovská 695/115b, Karlín, 18600 Praha 8",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "primarniZaznam": true
+        }
+      ],
+      "pravniForma": "112",
+      "spisovaZnacka": "C 243567/MSPH",
+      "datovyZdroj": "vr"
+    }
+  ],
+  "czNace": [
+    "620",
+    "6820",
+    "7219",
+    "731"
+  ]
+}

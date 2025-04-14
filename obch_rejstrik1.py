@@ -26,10 +26,34 @@ json_text = json.dumps(data, indent=2, ensure_ascii=False)
 # stažená data uloží do souboru a do složky, soubor pojmenuje podle vyhledaneho ICO, pokud uz stejny soubor existuje, prida k nazvu souboru cislo
 # S adresou pracuj jako s obyčejným řetězcem, tj. můžeš využívat formátované řetězce, metodu .replace(), operátor + atd. Text, který API vrátí, převeď na JSON a zjisti z něj obchodní jméno subjektu a adresu jeho sídla (můžeš využít podle textovaAdresa). Získané informace vypiš na obrazovku.
 
-nazev = data["obchodniJmeno"]
-adresa = data["sidlo"]["textovaAdresa"]
+# verze 1 - puvodni
+# nazev = data["obchodniJmeno"]
+# adresa = data["sidlo"]["textovaAdresa"]
+
+# verze 2 - podle AI
+# nazev = data.get("obchodniJmeno", "Neznámý název")
+# adresa = data.get("sidlo", {}).get("textovaAdresa", "Adresa není k dispozici")
+
+# verze 3 - pomoci vyjimek
+try:
+  nazev = data["obchodniJmeno"]
+except KeyError:
+  nazev = "Název nenalazen"
+  print("API nevrací název.")
+
+try:
+  adresa = data["sidlo"]["textovaAdresa"]
+except KeyError:
+  adresa = "Adresa nenalezena"
+  print("API nevrací adresu.")
+
+
+
 
 folder = "vystupy"
+if not os.path.exists(folder):   #pridano, kdyby nekdo napr omylem smazal slozku
+  os.makedirs(folder)            #pridano, kdyby nekdo napr omylem smazal slozku
+
 filename = os.path.join(folder, f"{ico}-{nazev}.txt")   # nebo: filename =  f"vystupy\{ico}.txt"
 counter = 1
 while os.path.exists(filename):
@@ -47,8 +71,6 @@ print("Výsledek vyhledávání:")
 print(f"Zadané IČO patří společnosti: {nazev} s adresou: {adresa}. Data byla uložena do souboru: {filename} ve složce: vystupy.")
 
 
-# Část 2
-# Často se stane, že neznáme IČO subjektu, ale známe například jeho název nebo alespoň část názvu. Napiš program, který se zeptá uživatele(ky) na název subjektu, který chce vyhledat. Následně vypiš všechny nalezené subjekty, které ti API vrátí.
 
 
 
